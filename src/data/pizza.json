@@ -5,7 +5,7 @@
   "model": {
     "src": "/models/pizza.glb",
     "iosSrc": "/models/pizza.usdz",
-    "poster": "/models/pizza-poster.svg",
+    "poster": "/models/pizza-poster.jpg",
     "cameraOrbit": "45deg 65deg 0.6m",
     "scale": "1 1 1"
   },
