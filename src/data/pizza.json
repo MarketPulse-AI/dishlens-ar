@@ -1,0 +1,38 @@
+{
+  "slug": "pizza",
+  "name": "Margherita Pizza",
+  "tagline": "Hand-stretched dough, San Marzano tomato, fresh mozzarella.",
+  "model": {
+    "src": "/models/pizza.glb",
+    "iosSrc": "/models/pizza.usdz",
+    "poster": "/models/pizza-poster.svg",
+    "cameraOrbit": "45deg 65deg 0.6m",
+    "scale": "1 1 1"
+  },
+  "ingredients": [
+    { "name": "Pizza dough", "amount": "1 ball (280g)", "allergens": ["gluten"] },
+    { "name": "San Marzano tomato sauce", "amount": "80g", "allergens": [] },
+    { "name": "Fresh mozzarella", "amount": "120g", "allergens": ["dairy"] },
+    { "name": "Basil leaves", "amount": "6-8 leaves", "allergens": [] },
+    { "name": "Extra virgin olive oil", "amount": "1 tbsp", "allergens": [] },
+    { "name": "Sea salt", "amount": "to taste", "allergens": [] }
+  ],
+  "preparation": [
+    { "step": 1, "title": "Shape the dough", "description": "Dough is hand-stretched and rolled to order, never pre-pressed." },
+    { "step": 2, "title": "Spread the sauce", "description": "San Marzano tomato sauce is spread edge to edge, left thin." },
+    { "step": 3, "title": "Layer the cheese", "description": "Fresh mozzarella is torn by hand and layered evenly." },
+    { "step": 4, "title": "Add basil & oil", "description": "Fresh basil and a drizzle of olive oil finish the top." },
+    { "step": 5, "title": "Fire it", "description": "Baked until the crust blisters and turns golden brown." }
+  ],
+  "discover": {
+    "origin": "Naples, Italy",
+    "chefNotes": "We fire this at 480°C for 90 seconds, the same way it's been done in Naples since the 1800s. No shortcuts, no conveyor ovens.",
+    "facts": [
+      "Named for Queen Margherita of Savoy in 1889.",
+      "Its colors echo the Italian flag: red tomato, white mozzarella, green basil.",
+      "Naples-style dough must rest for at least 8 hours before stretching."
+    ],
+    "culturalBackground": "The Margherita is the dish most associated with Neapolitan identity worldwide, and in 2017 Naples' art of pizza-making (Pizzaiuolo) was inscribed on UNESCO's Intangible Cultural Heritage list.",
+    "pairing": "Chianti or a chilled Peroni"
+  }
+}

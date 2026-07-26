@@ -1,0 +1,38 @@
+{
+  "slug": "pasta",
+  "name": "Tagliatelle al Pomodoro",
+  "tagline": "Fresh egg tagliatelle, slow-simmered tomato, basil, parmesan.",
+  "model": {
+    "src": "/models/pasta.glb",
+    "iosSrc": "/models/pasta.usdz",
+    "poster": "/models/pasta-poster.svg",
+    "cameraOrbit": "45deg 65deg 0.6m",
+    "scale": "1 1 1"
+  },
+  "ingredients": [
+    { "name": "Fresh egg tagliatelle", "amount": "220g", "allergens": ["gluten", "egg"] },
+    { "name": "San Marzano tomatoes", "amount": "300g", "allergens": [] },
+    { "name": "Garlic", "amount": "2 cloves", "allergens": [] },
+    { "name": "Parmesan cheese", "amount": "30g", "allergens": ["dairy"] },
+    { "name": "Basil leaves", "amount": "8 leaves", "allergens": [] },
+    { "name": "Extra virgin olive oil", "amount": "2 tbsp", "allergens": [] }
+  ],
+  "preparation": [
+    { "step": 1, "title": "Roll the pasta", "description": "Egg tagliatelle is rolled and cut fresh in-house." },
+    { "step": 2, "title": "Boil", "description": "Dropped into rolling, salted water until al dente." },
+    { "step": 3, "title": "Drain & plate", "description": "Drained and plated immediately to preserve texture." },
+    { "step": 4, "title": "Toss in sauce", "description": "Tossed through a slow-simmered San Marzano tomato sauce." },
+    { "step": 5, "title": "Finish", "description": "Topped with fresh basil and shaved parmesan." }
+  ],
+  "discover": {
+    "origin": "Emilia-Romagna, Italy",
+    "chefNotes": "The sauce simmers for four hours before service. We taste it every thirty minutes -- that's the only way to know it's ready.",
+    "facts": [
+      "Tagliatelle's ribbon width is said to have been inspired by the golden hair of Lucrezia Borgia.",
+      "Bologna's chamber of commerce keeps an official, legally registered tagliatelle recipe.",
+      "Traditionally made with just eggs and flour, no water."
+    ],
+    "culturalBackground": "Fresh egg pasta is a cornerstone of Emilia-Romagna's cuisine, historically rolled by hand (la sfoglia) as a daily household ritual passed between generations.",
+    "pairing": "Sangiovese"
+  }
+}

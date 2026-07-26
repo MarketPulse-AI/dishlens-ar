@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#1c1a17"/>
+  <circle cx="300" cy="300" r="160" fill="#e8d9a0"/>
+  <circle cx="300" cy="300" r="90" fill="#a6321f"/>
+  <text x="300" y="500" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#f6f1e7" letter-spacing="2">LOADING TAGLIATELLE AL POMODORO</text>
+</svg>

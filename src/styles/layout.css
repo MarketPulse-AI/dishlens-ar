@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: var(--color-ink);
+  color: var(--color-cream);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Global focus visibility -- keyboard users get a clear ring, mouse/touch
+   users don't see it thanks to :focus-visible. Applied broadly rather than
+   per-component so nothing new introduced later silently loses it. */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.app-header {
+  padding: var(--space-lg) var(--space-md) var(--space-md);
+  padding-top: max(var(--space-lg), env(safe-area-inset-top));
+}
+
+.app-header__eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
+.app-header__title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(24px, 6vw, 32px);
+  margin: 4px 0 6px;
+  line-height: 1.15;
+}
+
+.app-header__tagline {
+  opacity: 0.7;
+  font-size: 15px;
+  line-height: 1.4;
+  margin: 0;
+  max-width: 46ch;
+}
+
+.panel {
+  flex: 1;
+  padding: 0 var(--space-md) var(--space-xl);
+}
+
+.panel.is-entering {
+  animation: panel-fade-in var(--duration-slow) var(--ease-standard);
+}
+
+@keyframes panel-fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

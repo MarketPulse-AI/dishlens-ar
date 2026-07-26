@@ -1,0 +1,38 @@
+{
+  "slug": "tiramisu",
+  "name": "Tiramisu",
+  "tagline": "Espresso-soaked ladyfingers layered with mascarpone cream.",
+  "model": {
+    "src": "/models/tiramisu.glb",
+    "iosSrc": "/models/tiramisu.usdz",
+    "poster": "/models/tiramisu-poster.svg",
+    "cameraOrbit": "45deg 65deg 0.5m",
+    "scale": "1 1 1"
+  },
+  "ingredients": [
+    { "name": "Ladyfingers (savoiardi)", "amount": "24 pieces", "allergens": ["gluten", "egg"] },
+    { "name": "Espresso", "amount": "300ml, cooled", "allergens": [] },
+    { "name": "Mascarpone cheese", "amount": "500g", "allergens": ["dairy"] },
+    { "name": "Egg yolks", "amount": "4", "allergens": ["egg"] },
+    { "name": "Sugar", "amount": "100g", "allergens": [] },
+    { "name": "Cocoa powder", "amount": "for dusting", "allergens": [] }
+  ],
+  "preparation": [
+    { "step": 1, "title": "Brew espresso", "description": "Espresso is brewed fresh and left to cool completely." },
+    { "step": 2, "title": "Whip the cream", "description": "Egg yolks and sugar are whisked, then folded with mascarpone." },
+    { "step": 3, "title": "Dip the ladyfingers", "description": "Ladyfingers are briefly dipped in espresso, not soaked." },
+    { "step": 4, "title": "Layer", "description": "Alternating layers of soaked ladyfingers and mascarpone cream." },
+    { "step": 5, "title": "Chill & dust", "description": "Chilled for hours, then dusted with cocoa just before serving." }
+  ],
+  "discover": {
+    "origin": "Veneto, Italy",
+    "chefNotes": "We dip, never soak, the ladyfingers -- three seconds each side. Any longer and the layers turn to mush by the time it reaches your table.",
+    "facts": [
+      "The name means \"pick me up,\" a reference to the espresso and sugar meant to lift your spirits.",
+      "First documented in Treviso restaurants in the 1960s, making it young by Italian dessert standards.",
+      "Traditional recipes use raw egg yolks, whisked with sugar over gentle heat for safety."
+    ],
+    "culturalBackground": "Tiramisu's rapid spread from a regional Veneto specialty to Italy's most internationally recognized dessert happened within a single generation, unusually fast for a dish rooted in tradition.",
+    "pairing": "Espresso or Vin Santo"
+  }
+}
