@@ -6,7 +6,7 @@
     "src": "/models/pizza.glb",
     "iosSrc": "/models/pizza.usdz",
     "poster": "/models/pizza-poster.jpg",
-    "cameraOrbit": "45deg 65deg 0.6m",
+    "cameraOrbit": "45deg 75deg 2.5m",
     "scale": "1 1 1"
   },
   "ingredients": [

@@ -36,8 +36,9 @@ export function renderARPreview(dish) {
           auto-rotate
           auto-rotate-delay="1200"
           rotation-per-second="16deg"
-          camera-orbit="${model.cameraOrbit || '45deg 65deg 0.6m'}"
-          field-of-view="30deg"
+          camera-orbit="45deg 75deg 2.5m"
+          field-of-view="45deg"
+          scale="${model.scale || '1 1 1'}"
           interaction-prompt="auto"
           shadow-intensity="1.1"
           shadow-softness="0.8"
