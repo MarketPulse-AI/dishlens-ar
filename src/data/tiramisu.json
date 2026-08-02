@@ -5,7 +5,7 @@
   "model": {
     "src": "/models/tiramisu.glb",
     "iosSrc": "/models/tiramisu.usdz",
-    "poster": "/models/tiramisu-poster.svg",
+    "poster": "/models/tiramisu-poster.jpg",
     "cameraOrbit": "45deg 65deg 0.5m",
     "scale": "1 1 1"
   },

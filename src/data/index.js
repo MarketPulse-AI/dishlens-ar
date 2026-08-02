@@ -1,8 +1,12 @@
 import pizza from './pizza.json';
-import pasta from './pasta.json';
+import spaghetti from './spaghetti.json';
 import tiramisu from './tiramisu.json';
 
-const DISHES = { pizza, pasta, tiramisu };
+const DISHES = {
+  pizza,
+  spaghetti,
+  tiramisu
+};
 
 /**
  * Returns dish data for a given slug, or null if the dish doesn't exist.
