@@ -3,6 +3,7 @@
   "name": "Tagliatelle al Pomodoro",
   "tagline": "Fresh egg tagliatelle, slow-simmered tomato, basil, parmesan.",
   "model": {
+  "src": "/models/spaghetti.glb",
   "iosSrc": "/models/spaghetti.usdz",
   "poster": "/models/spaghetti-poster.jpg",
   "cameraOrbit": "45deg 65deg 0.6m",
